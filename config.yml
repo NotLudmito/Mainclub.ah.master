@@ -40,8 +40,8 @@ auction:
   showRepairCost: true
 announce:
   chat:
-    listings: false
-    purchases: false
+    listings: true
+    purchases: true
   action_bar:
     listings: false
     purchases: false
