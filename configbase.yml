@@ -1,3 +1,4 @@
+# AuctionHouse Modified by NotLudmito!
 # 
 # AuctionHouse
 locale: es_ar
@@ -22,9 +23,9 @@ auction:
   preventFilledContainers: false
   minSellPrice: 10000.0
   maxSellPrice: 1000000000.0
-  salesTax: 0.0
+  salesTax: 50000.0
   maxSalesTax: 100000.0
-  allowDamagedItems: false
+  allowDamagedItems: true
   defaultMaxListings: 5
   sortOrder: oldest
   discord_channel: auctionhouse
@@ -98,7 +99,7 @@ triggers:
   block_name: Auction House
   entity_name: Auction House
 commands:
-  exit: msg %player% Exiting AuctionHouse
+  exit: msg %player% Saliendo de subasta!
 log:
   listed: true
   sold: true
