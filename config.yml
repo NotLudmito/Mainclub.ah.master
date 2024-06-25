@@ -3,7 +3,7 @@
 # AuctionHouse
 locale: es_ar
 decimal_format: '#,##0.00'
-strict: false
+strict: true
 economy: vault
 chatHook: true
 updateTicks: 20
@@ -23,8 +23,8 @@ auction:
   preventFilledContainers: false
   minSellPrice: 10000.0
   maxSellPrice: 1000000000.0
-  salesTax: 50000.0
-  maxSalesTax: 100000.0
+  salesTax: 5000.0
+  maxSalesTax: 10000.0
   allowDamagedItems: true
   defaultMaxListings: 5
   sortOrder: oldest
